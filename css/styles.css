@@ -1,0 +1,217 @@
+
+body{
+
+	font-family: Montserrat;
+	
+
+}
+
+#title{
+	/*#ffc468*/
+	background-color:  #ffa931;
+
+color:#fff;
+}
+ /*navigation bar*/
+
+.navbar{
+     
+	margin-bottom: 5%;
+}
+.navbar-brand {
+ 
+ font-size:1.5rem;
+
+}
+.nav-item {
+
+	padding :0 10px;
+}
+
+.nav-link {
+
+ font-family: monserrat-thin;
+
+}
+
+.container-fluid
+{
+ 
+padding: 3% 15% 11%;
+
+}
+
+.butt{
+ margin: 3% 2%;
+
+}
+.cars{
+
+	padding-right:10px;
+}
+.image{
+
+	width:60%;
+	transform: rotate(30deg);
+	position:absolute;
+	z-index: ;	
+	left: 40px;
+}
+
+h1{
+
+	font-family:'Montserrat-Black 900' bold ;
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+}
+
+h2{
+line-height: 3.5rem;
+font-size: 2.5rem;
+}
+
+h3{
+
+font-family: Montserrat;
+
+font-size:1.5rem;
+
+}
+ 
+ p{
+
+font-family: Montserrat-thin;
+
+color: #8f8f8f;
+
+ }
+/*Features boxes*/
+
+#features{
+
+	padding:7% 15%;
+	position: relative;
+	z-index: +1;	
+	background-color: #fff;
+
+
+}
+
+.boxes{
+		
+	padding-bottom: 15px;
+	color: #ef8172;
+	
+	}
+
+.boxes:hover{
+/*#ff4c68*/
+color:#12cad6;
+	
+}
+
+.sec {
+
+text-align: center;
+padding:5%;
+
+}
+
+/*testimonials Sections*/
+
+
+#testimonials{
+text-align: center;
+	
+background-color: #ffa931;
+color: #fff;
+
+
+
+
+}
+
+.car-image{
+ width: 35%;
+border-radius: 100%;
+margin-top: 20px;	
+}
+.carousel-item{
+
+padding: 7% 15%;
+
+}
+	
+
+	#press{
+		text-align: center;
+
+background-color: #ffa931;
+ padding-bottom: 20px;
+
+	}
+
+.press-logo{
+
+ width :15%;
+
+ padding: 10px 20px 20px ;
+
+}
+
+#pricing{
+
+	text-align:center;
+	padding:3% 2%;
+}
+
+.pricing-column{
+
+	padding:3% 2%;
+}
+
+/*Media Query*/
+
+@media (max-width:1028px)
+{
+#title{
+
+	text-align: center;
+}
+.image{
+	 position: static;
+	transform:rotate(0);
+}
+
+}
+
+/*<!-- Call to Action -->*/
+#cta
+
+{
+
+
+background-color: #ffa931;
+text-align: center;
+padding: 7% 15%;
+}
+
+.heading{
+
+	color:#fff;
+	line-height: 3.5rem;
+font-size: 2.5rem;
+}
+
+#footer {
+
+padding: 7% 15%;
+text-align: center;
+
+}
+
+.small-logo {
+
+ padding: 1% 1%;
+}
+
